@@ -35,7 +35,6 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .quote-banner.wq{border-left-color:var(--royal2)}.quote-banner.wq .quote-author{color:#6ab0ff}
 .quote-banner.hq{border-left-color:#f0a030}.quote-banner.hq .quote-author{color:#f0a030}
 
-/* CALENDAR */
 .cal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
 .cal-month{font-family:var(--fn);font-size:24px;letter-spacing:2px;color:var(--acc)}
 .cal-nav{display:flex;gap:6px}
@@ -57,30 +56,24 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--mut)}
 .legend-dot{width:9px;height:9px;border-radius:2px}
 
-/* CARDS */
 .wcard{background:var(--surf);border:1px solid var(--bdr);border-radius:14px;overflow:hidden;margin-bottom:14px}
 .wcard-hdr{padding:13px 18px;display:flex;align-items:center;justify-content:space-between}
 .wcard-hdr.lift{background:var(--royal)}.wcard-hdr.liss{background:#1a4a2a}.wcard-hdr.hiit{background:#5a3008}.wcard-hdr.rest{background:var(--surf2)}.wcard-hdr.weigh{background:#6a4a08}
-.wcard-hdr.cardio-block{background:#12302a}
 .wc-title{font-family:var(--fn);font-size:21px;letter-spacing:2px}
 .wc-sub{font-size:11px;opacity:.85;margin-top:1px}
 .wc-badge{background:rgba(0,0,0,.3);padding:3px 10px;border-radius:20px;font-size:11px;font-weight:500}
 .prog-bar-wrap{height:3px;background:var(--surf3)}
 .prog-bar{height:100%;background:var(--acc);transition:width .3s}
 
-/* DAILY CARDIO BLOCK */
 .cardio-block{background:var(--surf2);border:1px solid #1a3a20;border-radius:11px;margin-bottom:14px;overflow:hidden}
 .cardio-block-hdr{background:#12302a;padding:10px 16px;display:flex;align-items:center;justify-content:space-between}
 .cardio-block-title{font-family:var(--fn);font-size:16px;letter-spacing:2px;color:#4aee8a}
 .cardio-block-sub{font-size:11px;color:#4aaa6a;margin-top:1px}
 .cardio-block-body{padding:12px 16px}
 .cardio-mini-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px}
-.cardio-mini-row-2{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
 .cardio-save-btn{background:#1a4a2a;border:1px solid var(--grn);color:#4aaa6a;font-family:var(--fn);font-size:14px;letter-spacing:1px;padding:9px 18px;border-radius:8px;cursor:pointer;width:100%;margin-top:4px}
-.cardio-save-btn:active{background:#2a5a3a}
 .cardio-logged-tag{font-size:11px;color:#4aaa6a;text-align:center;padding-top:6px}
 
-/* TIMER */
 .timer-bar{display:flex;align-items:center;justify-content:space-between;padding:11px 18px;border-bottom:1px solid var(--bdr);background:var(--surf2)}
 .timer-display{font-family:var(--fn);font-size:30px;letter-spacing:3px}
 .timer-display.running{color:var(--acc)}
@@ -88,7 +81,6 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .tbtn{border:1px solid var(--bdr);background:var(--surf3);color:var(--txt);padding:6px 13px;border-radius:7px;cursor:pointer;font-family:var(--fn);font-size:13px;letter-spacing:1px}
 .tbtn.start{background:var(--royal);border-color:var(--royal)}
 
-/* EXERCISES */
 .ex-list{padding:10px 16px}
 .ex-block{border:1px solid var(--bdr);border-radius:10px;margin-bottom:9px;overflow:hidden}
 .ex-head{display:flex;align-items:flex-start;justify-content:space-between;padding:9px 11px;background:var(--surf2);gap:8px}
@@ -105,17 +97,11 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .set-done-btn{background:none;border:1px solid var(--bdr);color:var(--mut);border-radius:5px;padding:4px 8px;cursor:pointer;font-size:11px;font-weight:500}
 .set-done-btn.logged{background:rgba(192,154,60,.2);border-color:var(--acc);color:var(--acc)}
 .ex-note{background:var(--surf3);border-left:2px solid var(--acc);padding:6px 10px;font-size:11px;color:var(--mut);line-height:1.5;margin:3px 8px 7px}
-.ex-alt{background:rgba(23,79,163,.12);border-left:2px solid var(--royal2);padding:5px 10px;font-size:10px;color:#6ab0ff;line-height:1.4;margin:3px 8px 7px}
 .day-focus{background:var(--surf3);border-left:3px solid var(--royal2);padding:8px 12px;margin:0 16px 12px;border-radius:0 6px 6px 0;font-size:11px;color:#6ab0ff;line-height:1.5}
 
-/* SECTION DIVIDER */
-.section-div{font-family:var(--fn);font-size:12px;letter-spacing:2px;color:var(--mut);padding:8px 16px 4px;border-top:1px solid var(--bdr);margin-top:4px}
-
-/* ACTIONS */
 .action-btn{display:block;width:calc(100% - 32px);margin:0 16px 14px;border:none;color:#fff;font-family:var(--fn);font-size:16px;letter-spacing:2px;padding:13px;border-radius:10px;cursor:pointer}
 .action-btn.lift-save{background:var(--royal)}.action-btn.weigh-save{background:#6a4a08}
 
-/* FORMS */
 .form-section{padding:12px 16px}
 .form-row{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:9px}
 .form-row-2{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:9px}
@@ -127,7 +113,6 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .form-ta{background:var(--surf2);border:1px solid var(--bdr);color:var(--txt);border-radius:7px;padding:9px 10px;font-family:var(--fb);font-size:13px;width:100%;resize:vertical;min-height:65px}
 .form-ta:focus{outline:none;border-color:var(--royal2)}
 
-/* BF */
 .bf-result{background:var(--surf2);border:1px solid var(--acc);border-radius:10px;padding:13px;margin-bottom:13px;display:none}
 .bf-num{font-family:var(--fn);font-size:38px;letter-spacing:2px}
 .bf-cat{font-size:12px;margin-top:2px;font-weight:500}
@@ -137,7 +122,6 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .bf-stat-num{font-family:var(--fn);font-size:20px;letter-spacing:1px;color:var(--acc)}
 .bf-stat-lbl{font-size:10px;color:var(--mut);margin-top:2px}
 
-/* LOG */
 .log-entry{background:var(--surf);border:1px solid var(--bdr);border-radius:11px;padding:11px 13px;margin-bottom:8px}
 .log-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
 .log-name{font-size:13px;font-weight:500}
@@ -149,7 +133,6 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .log-date{font-size:11px;color:var(--mut)}
 .log-detail{font-size:12px;color:var(--mut);margin-top:3px}
 
-/* PROGRESS */
 .stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:14px}
 .stat-card{background:var(--surf);border:1px solid var(--bdr);border-radius:11px;padding:13px;text-align:center}
 .stat-num{font-family:var(--fn);font-size:30px;letter-spacing:2px;color:var(--acc)}
@@ -168,7 +151,6 @@ html,body{height:100%;background:var(--blk);color:var(--txt);font-family:var(--f
 .bfh-row:last-child{border-bottom:none}
 .bfh-val{font-family:var(--fn);font-size:17px;letter-spacing:1px}
 
-/* REST TIMER OVERLAY */
 .rest-overlay{position:fixed;inset:0;background:rgba(6,2,31,.93);z-index:500;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s}
 .rest-overlay.show{opacity:1;pointer-events:all}
 .rest-modal{background:var(--surf2);border:2px solid var(--acc);border-radius:20px;padding:26px 22px;text-align:center;width:285px;max-width:90vw}
@@ -259,7 +241,6 @@ const QUOTES={
     {text:"Hard work beats talent when talent doesn't work hard.",author:"Tim Notke"},
     {text:"Your body can stand almost anything. It's your mind that you have to convince.",author:"Unknown"},
     {text:"The successful warrior is the average man, with laser-like focus.",author:"Bruce Lee"},
-    {text:"Do not pray for an easy life, pray for the strength to endure a difficult one.",author:"Bruce Lee"},
     {text:"The fight is won or lost far away from witnesses — behind the lines, in the gym.",author:"Muhammad Ali"},
     {text:"Make sure your worst enemy doesn't live between your own two ears.",author:"Laird Hamilton"},
     {text:"Wake up determined. Go to bed satisfied.",author:"Dwayne Johnson"},
@@ -267,8 +248,9 @@ const QUOTES={
     {text:"Every rep. Every set. Every day.",author:"Unknown"},
     {text:"Discipline is doing what needs to be done even when you don't want to do it.",author:"Unknown"},
     {text:"It always seems impossible until it's done.",author:"Nelson Mandela"},
-    {text:"Success is not given. It is earned — in the gym, on the road, with blood and sweat.",author:"Unknown"},
-    {text:"Be stronger than your excuses.",author:"Unknown"}
+    {text:"Be stronger than your excuses.",author:"Unknown"},
+    {text:"Success is not given. It is earned in the gym, on the road, with blood and sweat.",author:"Unknown"},
+    {text:"Do not pray for an easy life, pray for the strength to endure a difficult one.",author:"Bruce Lee"}
   ],
   liss:[
     {text:"Run when you can, walk if you have to, crawl if you must; just never give up.",author:"Dean Karnazes"},
@@ -279,10 +261,10 @@ const QUOTES={
     {text:"The only bad workout is the one that didn't happen.",author:"Unknown"},
     {text:"Once you see results, it becomes an addiction.",author:"Unknown"},
     {text:"Discipline is the bridge between goals and accomplishment.",author:"Jim Rohn"},
-    {text:"Every mile is a gift.",author:"Unknown"},
     {text:"Low and slow — this is where the fat goes.",author:"Unknown"},
     {text:"The body achieves what the mind believes.",author:"Unknown"},
-    {text:"Slow is smooth. Smooth is steady. Steady is shredded.",author:"Unknown"}
+    {text:"Slow is smooth. Smooth is steady. Steady is shredded.",author:"Unknown"},
+    {text:"Every mile is a gift.",author:"Unknown"}
   ],
   hiit:[
     {text:"Pain is weakness leaving the body.",author:"Unknown"},
@@ -316,95 +298,88 @@ const QUOTES={
   ]
 };
 
-// Brad Pitt Fight Club program: 3 sets x 15 reps everything, 60s rest
-// Daily 3-mile cardio on lift days. Weekly LISS Tuesday, HIIT Thursday.
-// Sun=Chest+Core+Weigh, Mon=Back+Biceps, Tue=LISS only, Wed=Shoulders+Core, Thu=HIIT only, Fri=Legs, Sat=Arms+Core
-const LIFT_CARDIO={
-  label:"Daily Cardio — 3 Mile Walk/Jog",
-  sub:"Brad Pitt ran 3 miles every lift day",
-  note:"Complete before or after lifting. Incline treadmill walk at 3.5-4 mph counts. This daily cardio is the #1 fat loss driver in the program."
-};
-
+// Original 5-Day workout program from the app screenshots
+// Sun=Day1+Weigh, Mon=Day2, Tue=LISS, Wed=Day3, Thu=HIIT, Fri=Day4, Sat=Day5
 const WORKOUTS={
   sun:{
-    name:"Chest + Core",sub:"3 sets × 15 reps · 60 sec rest · Pump focus",type:"lift_weigh",
+    name:"Day 1 — Upper Body",
+    sub:"Chest · Back · Arms",
+    type:"lift_weigh",
     hasCardio:true,
-    focus:"Brad Pitt's chest day — moderate weight, strict 15 reps, 60 second rest. Pump, not power. End with 100+ sit-ups toward the 500/week goal.",
+    focus:"Chest and back superset focus. Take all sets to near failure. Last few reps should be a real struggle.",
     exercises:[
-      {name:"Incline DB Press",muscle:"Upper Chest",sets:3,reps:"15",note:"Moderate weight. Full stretch at the bottom, squeeze at the top. 60 sec rest between sets.",alt:""},
-      {name:"Flat DB Press",muscle:"Chest",sets:3,reps:"15",note:"Same tempo as incline. Full ROM. Don't chase heavy weight — chase the pump.",alt:""},
-      {name:"Cable Fly (High-to-Low)",muscle:"Lower Chest",sets:3,reps:"15",note:"Squeeze hard at peak contraction. Arms slightly bent. Constant tension.",alt:""},
-      {name:"Cable Fly (Low-to-High)",muscle:"Upper Chest",sets:3,reps:"15",note:"Upper chest sweep. Full range. Hold 1 second at peak.",alt:""},
-      {name:"Push-Up",muscle:"Chest / Triceps",sets:3,reps:"15-25",note:"Bodyweight finisher. Add weight vest when this becomes easy.",alt:""},
-      {name:"Crunch",muscle:"Abs",sets:4,reps:"25",note:"Target: 100 crunches today toward your 500/week goal. Slow and controlled.",alt:""},
-      {name:"Hanging Leg Raise",muscle:"Lower Abs",sets:3,reps:"15",note:"Full hang. Raise legs to 90°. Slow negative.",alt:"Use lying leg raise on a flat bench if needed."},
-      {name:"Plank",muscle:"Full Core",sets:3,reps:"60 sec",note:"Squeeze glutes and abs. Neutral spine. No sagging.",alt:""}
+      {name:"Chest Press (Machine)",muscle:"Chest",sets:4,reps:"6-9",note:"Full ROM. Control the negative. Drive through the peak contraction."},
+      {name:"Lat Pulldown (Machine)",muscle:"Back",sets:2,reps:"6-12",note:"Set 1: 6-9 reps. Set 2: 10-12 reps. Pull to upper chest. Initiate with lats."},
+      {name:"Pec Deck (Machine)",muscle:"Chest",sets:3,reps:"10-12",note:"FROM Failure every set. Full stretch at the start position. Squeeze hard at peak."},
+      {name:"Seated Row (Machine)",muscle:"Upper Back",sets:3,reps:"6-9",note:"FROM Failure every set. Drive elbows back hard. Full ROM."},
+      {name:"Triceps Extension (Cable)",muscle:"Triceps",sets:4,reps:"10-12",note:"Lock elbows at sides. Full extension at the bottom. Squeeze hard."},
+      {name:"Hammer Curl (Cable)",muscle:"Biceps",sets:3,reps:"12-15",note:"Neutral grip. Constant cable tension. Control the negative."}
     ]
   },
   mon:{
-    name:"Back + Biceps",sub:"3 sets × 15 reps · 60 sec rest · Width & Peak",type:"lift",
+    name:"Day 2 — Shoulders & Legs",
+    sub:"Shoulders · Quads · Calves · Core",
+    type:"lift",
     hasCardio:true,
-    focus:"Back width creates the V-taper that defines the Fight Club look. Bicep isolation for peak definition — not size.",
+    focus:"Shoulders and quad focus. Lateral raises build the capped delt look. Smith machine squat keeps the movement controlled.",
     exercises:[
-      {name:"Lat Pulldown (Wide Grip)",muscle:"Lats",sets:3,reps:"15",note:"Pull to upper chest. Initiate with lats, not biceps. Lean back slightly.",alt:"Machine-assisted pull-up alternative — full range of motion."},
-      {name:"Assisted Machine Pull-Up",muscle:"Lats",sets:3,reps:"15",note:"Use the assisted pull-up machine. Set weight assistance so 15 reps is challenging. Build toward unassisted.",alt:"Substitute with Lat Pulldown if machine unavailable."},
-      {name:"Seated Cable Row",muscle:"Mid Back",sets:3,reps:"15",note:"Squeeze shoulder blades at peak. Full stretch forward. Controlled both ways.",alt:""},
-      {name:"Single-Arm DB Row",muscle:"Lats / Rhomboids",sets:3,reps:"15",note:"Drive elbow to hip. Full stretch at bottom. 15 each side.",alt:""},
-      {name:"Barbell Curl",muscle:"Biceps",sets:3,reps:"15",note:"Strict form — no swinging. Full extension at the bottom. Squeeze hard at the top.",alt:"EZ-bar curl if wrists are uncomfortable."},
-      {name:"Incline DB Curl",muscle:"Biceps Long Head",sets:3,reps:"15",note:"Incline creates maximum stretch. Slower negative builds the peak.",alt:""},
-      {name:"Concentration Curl",muscle:"Biceps Peak",sets:3,reps:"15",note:"Full contraction at the top. Slight wrist supination. No momentum.",alt:""},
-      {name:"Reverse Curl",muscle:"Forearms",sets:3,reps:"15",note:"Overhand grip. Builds forearm definition and arm thickness.",alt:""}
+      {name:"Lateral Raise (Cable)",muscle:"Side Delts",sets:3,reps:"8-12",note:"FROM Failure every set. Last set Drop Set. Constant cable tension builds the delt cap."},
+      {name:"Reverse Fly (Cable)",muscle:"Rear Delts",sets:3,reps:"8-12",note:"Last Set MyoReps. Arms nearly straight. Lead with elbows. Squeeze at full extension."},
+      {name:"Squat (Smith Machine)",muscle:"Quads / Glutes",sets:3,reps:"6-9",note:"Normal Set. Controlled descent. Drive through heels. Smith machine keeps movement stable."},
+      {name:"Leg Extension (Machine)",muscle:"Quads",sets:3,reps:"6-9",note:"Last Set Drop Set. Squeeze hard at the top. 2-second hold. Slow negative."},
+      {name:"Standing Calf Raise (Smith Machine)",muscle:"Calves",sets:3,reps:"6-9",note:"Optional — Full ROM Failure. Last Set Drop Set. Full stretch at bottom, full contraction at top."},
+      {name:"Knee Raise (Captain's Chair)",muscle:"Core",sets:3,reps:"8-12",note:"Optional — Normal Set. Control the movement. No swinging. Full hang."}
     ]
   },
   tue:{name:"LISS Cardio",sub:"Zone 2 — 45 min · No lifting today · Active recovery",type:"liss"},
   wed:{
-    name:"Shoulders + Core",sub:"3 sets × 15 reps · 60 sec rest · The Pitt Look",type:"lift",
+    name:"Day 3 — Chest & Triceps",
+    sub:"Upper Chest · Chest · Triceps · Front Delts",
+    type:"lift",
     hasCardio:true,
-    focus:"Capped deltoids are the single most important muscle group for the Fight Club physique. The V-taper illusion comes from shoulder width. Do not rush lateral raises.",
+    focus:"Chest and tricep volume day. Incline machine targets the upper chest for the full look. Tricep extensions from two angles for complete development.",
     exercises:[
-      {name:"DB Shoulder Press",muscle:"Front & Side Delts",sets:3,reps:"15",note:"Don't lock out at the top — keep tension on the delt throughout.",alt:""},
-      {name:"Lateral Raise (DB)",muscle:"Side Delts",sets:5,reps:"15-20",note:"5 SETS. This is the signature exercise. Lead with elbows, slight forward lean, 3-second negative. Light weight, perfect form.",alt:"Cable lateral raise for constant tension."},
-      {name:"Arnold Press",muscle:"Full Delt",sets:3,reps:"15",note:"Rotate from palms-facing-you to palms-out. Hits all 3 delt heads.",alt:""},
-      {name:"Rear Delt Fly (Machine)",muscle:"Rear Delts",sets:3,reps:"15",note:"Arms nearly straight. Lead with elbows back. Squeeze at full extension.",alt:"Bent-over DB rear delt fly."},
-      {name:"Face Pull (Cable)",muscle:"Rear Delts / Rotator Cuff",sets:3,reps:"15",note:"Rope to forehead level. External rotation at the end. Critical for shoulder health and rear delt detail.",alt:""},
-      {name:"Cable Crunch",muscle:"Abs",sets:3,reps:"20",note:"Kneel at cable. Elbows to knees. Contract abs — not a hip flexor exercise.",alt:"Decline crunch."},
-      {name:"Bicycle Crunch",muscle:"Obliques",sets:3,reps:"30",note:"15 each side. Slow and deliberate. Full rotation.",alt:""},
-      {name:"Plank",muscle:"Core",sets:3,reps:"60 sec",note:"Strong finish. Squeeze everything. Breathe steadily.",alt:""}
+      {name:"Incline Chest Press (Machine)",muscle:"Upper Chest",sets:4,reps:"6-9",note:"Normal Set. Full ROM. Focus on upper chest activation. Controlled negative."},
+      {name:"Bench Press (Dumbbell)",muscle:"Chest",sets:4,reps:"8-12",note:"Last Set Drop Set. Different stimulus from machine. Full stretch at the bottom."},
+      {name:"Triceps Pushdown (Cable — Straight Bar)",muscle:"Triceps",sets:3,reps:"6-9",note:"Last Set Drop Set. Elbows locked at sides. Full extension. Squeeze hard."},
+      {name:"Triceps Extension (Cable)",muscle:"Triceps Long Head",sets:4,reps:"8-12",note:"Normal Set. Overhead or pushdown variation. Full stretch for long head development."},
+      {name:"Front Raise (Dumbbell)",muscle:"Front Delts",sets:3,reps:"6-9",note:"Normal Set. Controlled tempo. Slight bend in elbow. No swinging."}
     ]
   },
   thu:{name:"HIIT",sub:"20-25 min · Bike Sprints or Treadmill Intervals",type:"hiit"},
   fri:{
-    name:"Legs",sub:"3 sets × 15 reps · 60 sec rest · Foundation",type:"lift",
+    name:"Day 4 — Back & Biceps",
+    sub:"Lats · Back · Biceps · Traps · Lower Back",
+    type:"lift",
     hasCardio:true,
-    focus:"Leg training drives testosterone production more than any other session. Strong legs = faster fat loss overall. Never skip.",
+    focus:"Back width and bicep peak. Iso-lateral row hits each side independently for balanced development. Preacher curl isolates the bicep fully.",
     exercises:[
-      {name:"Leg Press",muscle:"Quads / Glutes",sets:3,reps:"15",note:"Feet shoulder-width. Full depth. Control the descent.",alt:"Back squat or goblet squat."},
-      {name:"Romanian Deadlift",muscle:"Hamstrings / Glutes",sets:3,reps:"15",note:"Hinge at hips. Feel the hamstring stretch at the bottom. Controlled throughout.",alt:""},
-      {name:"Leg Extension",muscle:"Quads",sets:3,reps:"15",note:"Squeeze hard at the top. 2-second hold. Slow negative.",alt:""},
-      {name:"Seated Leg Curl",muscle:"Hamstrings",sets:3,reps:"15",note:"Seated = better hamstring stretch. Full ROM both directions.",alt:"Lying leg curl."},
-      {name:"Hip Thrust",muscle:"Glutes",sets:3,reps:"15",note:"Upper back on bench. Squeeze glutes hard at the top. Drive through heels.",alt:"Glute bridge on the floor."},
-      {name:"Standing Calf Raise",muscle:"Calves",sets:3,reps:"20",note:"Full ROM — full stretch at bottom, full contraction at top. Slow tempo.",alt:"Seated calf raise."},
-      {name:"Decline Sit-Up",muscle:"Abs",sets:4,reps:"25",note:"100 sit-ups today toward the 500/week goal. Add weight plate when this gets easy.",alt:"Flat floor sit-up."}
+      {name:"Lat Pulldown (Machine)",muscle:"Lats",sets:3,reps:"8-12",note:"FROM Failure every set. Wide grip. Pull to upper chest. Initiate with lats — not biceps."},
+      {name:"Preacher Curl (Machine)",muscle:"Biceps",sets:4,reps:"6-9",note:"Last Set FROM Failure. Full stretch at the bottom every rep. Machine keeps strict form."},
+      {name:"Iso-Lateral Row (Machine)",muscle:"Lats / Mid Back",sets:3,reps:"8-12",note:"Last Set Drop Set. Each arm works independently. Drive elbow back and down."},
+      {name:"Hammer Curl (Dumbbell)",muscle:"Biceps / Brachialis",sets:3,reps:"8-12",note:"Normal Set. Neutral grip. Adds arm thickness and forearm definition."},
+      {name:"Shrug (Barbell)",muscle:"Traps",sets:3,reps:"8-12",note:"Last Set MyoReps. Hold 1-2 sec at the top. MyoReps: fail → 10-20s rest → 4 reps → repeat."},
+      {name:"Back Extension",muscle:"Lower Back / Glutes",sets:3,reps:"8-12",note:"Normal Set. Focus on lower back engagement. Squeeze at full extension."}
     ]
   },
   sat:{
-    name:"Arms + Core",sub:"3 sets × 15 reps · 60 sec rest · Detail Work",type:"lift",
+    name:"Day 5 — Shoulders & Legs",
+    sub:"Delts · Hamstrings · Back · Quads · Calves · Core",
+    type:"lift",
     hasCardio:true,
-    focus:"Dedicated arm day — the session Pitt used for the definition that's visible at low body fat. Horseshoe triceps + peaked biceps = the chiseled arm look.",
+    focus:"Second shoulder and leg session of the week. Romanian deadlift hits the posterior chain hard. Leg press with low foot placement maximizes quad activation.",
     exercises:[
-      {name:"Close-Grip Bench Press",muscle:"Triceps",sets:3,reps:"15",note:"Hands shoulder-width. Elbows tucked. Primary mass builder for triceps.",alt:""},
-      {name:"Skull Crusher",muscle:"Triceps Long Head",sets:3,reps:"15",note:"Lower bar behind head for maximum long-head stretch. Controlled negative.",alt:"Overhead DB tricep extension."},
-      {name:"Tricep Pushdown (Rope)",muscle:"Triceps",sets:3,reps:"15",note:"Split rope at the bottom. Full extension. Constant tension throughout.",alt:"Straight bar pushdown."},
-      {name:"Overhead Tricep Extension (Cable)",muscle:"Triceps Long Head",sets:3,reps:"15",note:"Full overhead stretch. The long head creates the horseshoe shape visible at low body fat.",alt:"DB overhead extension."},
-      {name:"Barbell Curl",muscle:"Biceps",sets:3,reps:"15",note:"Strict. No swinging. Full extension at the bottom every rep.",alt:"EZ-bar curl."},
-      {name:"Hammer Curl",muscle:"Brachialis / Forearm",sets:3,reps:"15",note:"Neutral grip. Adds arm thickness and forearm definition.",alt:""},
-      {name:"Incline DB Curl",muscle:"Biceps Peak",sets:3,reps:"15",note:"Maximum stretch develops the long head peak that's visible in every angle.",alt:""},
-      {name:"Decline Sit-Up",muscle:"Abs",sets:4,reps:"25",note:"100 sit-ups today. Running total toward 500 this week.",alt:""},
-      {name:"Leg Raise",muscle:"Lower Abs",sets:3,reps:"15",note:"Flat bench or hanging. Lower slowly. Full ROM.",alt:"Lying knee raise."},
-      {name:"Plank",muscle:"Full Core",sets:3,reps:"60 sec",note:"End strong. 500 sit-ups/week + daily planks = the Pitt core.",alt:""}
+      {name:"Lateral Raise (Dumbbell)",muscle:"Side Delts",sets:4,reps:"8-12",note:"Normal Set. Lead with elbows. Slight forward lean. 3-second negative. Light weight, perfect form."},
+      {name:"Seated Leg Curl (Machine)",muscle:"Hamstrings",sets:3,reps:"8-12",note:"Last Set Drop Set. Seated = better hamstring stretch. Full ROM both directions."},
+      {name:"Romanian Deadlift (Barbell)",muscle:"Hamstrings / Lower Back",sets:3,reps:"8-12",note:"Normal Set. Hinge at hips. Feel the hamstring stretch at the bottom. Controlled throughout."},
+      {name:"Leg Press",muscle:"Quads",sets:3,reps:"6-9",note:"Normal Set. Feet shoulder-width. Full depth. Control the descent. Drive through heels."},
+      {name:"Standing Calf Raise (Barbell)",muscle:"Calves",sets:3,reps:"8-12",note:"FROM Failure every set. Full ROM — full stretch at bottom, full contraction at top."},
+      {name:"Knee Raise (Captain's Chair)",muscle:"Core",sets:3,reps:"8-12",note:"Normal Set. No swinging. Controlled movement. Full hang throughout."}
     ]
   }
 };
+
+const DAILY_CARDIO_NOTE="Brad Pitt ran 3 miles every training day. Walk/jog 3 miles before or after lifting. Incline treadmill at 3.5-4 mph counts. This is the #1 fat loss driver.";
 
 const DOW=['sun','mon','tue','wed','thu','fri','sat'];
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -421,16 +396,16 @@ function gk(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')
 function todayDate(){return new Date()}
 function load(){
   try{
-    logs=JSON.parse(localStorage.getItem('chisel2_logs')||'{}');
-    setData=JSON.parse(localStorage.getItem('chisel2_sets')||'{}');
-    exHistory=JSON.parse(localStorage.getItem('chisel2_exhist')||'{}');
+    logs=JSON.parse(localStorage.getItem('chisel3_logs')||'{}');
+    setData=JSON.parse(localStorage.getItem('chisel3_sets')||'{}');
+    exHistory=JSON.parse(localStorage.getItem('chisel3_exhist')||'{}');
   }catch(e){logs={};setData={};exHistory={}}
 }
 function save(){
   try{
-    localStorage.setItem('chisel2_logs',JSON.stringify(logs));
-    localStorage.setItem('chisel2_sets',JSON.stringify(setData));
-    localStorage.setItem('chisel2_exhist',JSON.stringify(exHistory));
+    localStorage.setItem('chisel3_logs',JSON.stringify(logs));
+    localStorage.setItem('chisel3_sets',JSON.stringify(setData));
+    localStorage.setItem('chisel3_exhist',JSON.stringify(exHistory));
   }catch(e){}
 }
 function getExHistory(n,s){return exHistory[n]?.[s]||{}}
@@ -492,7 +467,7 @@ function getDayMeta(dow){
   if(!w)return{cls:'',tl:'REST',tc:'dt-rest'};
   if(w.type==='liss')return{cls:' liss-day',tl:'LISS',tc:'dt-liss'};
   if(w.type==='hiit')return{cls:' hiit-day',tl:'HIIT',tc:'dt-hiit'};
-  if(w.type==='lift_weigh')return{cls:' liftday weighday',tl:'LIFT+WI',tc:'dt-weigh'};
+  if(w.type==='lift_weigh')return{cls:' liftday weighday',tl:'D1+WI',tc:'dt-weigh'};
   return{cls:' liftday',tl:'LIFT',tc:'dt-lift'};
 }
 
@@ -523,7 +498,7 @@ function selectDay(k){
   const[y,m,d]=k.split('-').map(Number);renderToday(new Date(y,m-1,d));
 }
 
-function safeExName(n){return n.replace(/'/g,"\\'").replace(/"/g,'\\"')}
+function safeEx(n){return n.replace(/'/g,"\\'").replace(/"/g,'\\"')}
 
 function renderToday(date){
   activeKey=gk(date);
@@ -535,7 +510,7 @@ function renderToday(date){
   const dayLabel=`<div style="margin-bottom:10px;font-size:12px;color:var(--mut)">${ds}</div>`;
 
   if(!w){
-    c.innerHTML=dayLabel+quoteHTML('rest',k)+`<div class="wcard"><div class="wcard-hdr rest"><div><div class="wc-title">Rest Day</div><div class="wc-sub">The physique is revealed in recovery</div></div><div class="wc-badge">REST</div></div><div style="padding:22px;text-align:center;color:var(--mut);font-size:13px;line-height:1.8">Sleep 7.5-9 hrs &nbsp;·&nbsp; Hit 175g protein<br>5g creatine &nbsp;·&nbsp; Stay hydrated<br><span style="color:var(--acc);font-size:12px">No rest day cardio required</span></div></div>`;
+    c.innerHTML=dayLabel+quoteHTML('rest',k)+`<div class="wcard"><div class="wcard-hdr rest"><div><div class="wc-title">Rest Day</div><div class="wc-sub">The physique is revealed in recovery</div></div><div class="wc-badge">REST</div></div><div style="padding:22px;text-align:center;color:var(--mut);font-size:13px;line-height:1.8">Sleep 7.5-9 hrs &nbsp;·&nbsp; Hit 175g protein<br>5g creatine &nbsp;·&nbsp; Stay hydrated</div></div>`;
     return;
   }
 
@@ -546,7 +521,7 @@ function renderToday(date){
       <div style="padding:12px 16px;border-bottom:1px solid var(--bdr)">
         <div style="background:var(--surf2);border-radius:9px;padding:11px 13px">
           <div style="font-size:11px;font-weight:500;color:#4aaa6a;letter-spacing:1px;margin-bottom:5px">ZONE 2 PROTOCOL</div>
-          <div style="font-size:12px;color:var(--mut);line-height:1.6">Treadmill: 3.5-4.0 mph · 10-12% incline · 45 min<br>Heart rate: 120-135 bpm · No lifting today<br><span style="color:#4aee8a">This is your dedicated fat-burn day. Protect it.</span></div>
+          <div style="font-size:12px;color:var(--mut);line-height:1.6">Treadmill: 3.5-4.0 mph · 10-12% incline · 45 min<br>Heart rate: 120-135 bpm · No lifting today<br><span style="color:#4aee8a">This is your dedicated fat-burn day.</span></div>
         </div>
       </div>
       <div class="form-section">
@@ -559,8 +534,8 @@ function renderToday(date){
           <div class="form-group"><label class="form-label">Duration (min)</label><input class="form-inp" type="number" id="c_dur" placeholder="45" value="${sv.duration||''}"></div>
           <div class="form-group"><label class="form-label">Avg Heart Rate</label><input class="form-inp" type="number" id="c_hr" placeholder="128" value="${sv.hr||''}"></div>
         </div>
-        <div class="form-group" style="margin-bottom:12px"><label class="form-label">Notes</label><textarea class="form-ta" id="c_notes" placeholder="Energy level, HR zones, how legs felt...">${sv.notes||''}</textarea></div>
-        <button class="action-btn cardio-save" style="background:var(--grn)" onclick="saveCardio('${k}','liss')">Save LISS Session</button>
+        <div class="form-group" style="margin-bottom:12px"><label class="form-label">Notes</label><textarea class="form-ta" id="c_notes" placeholder="Energy level, HR zones, how it felt...">${sv.notes||''}</textarea></div>
+        <button class="action-btn" style="background:var(--grn)" onclick="saveCardio('${k}','liss')">Save LISS Session</button>
         ${logs[k]?'<div style="text-align:center;font-size:11px;color:#4aaa6a;padding-bottom:10px">&#10003; Session logged</div>':''}
       </div></div>`;
     return;
@@ -573,7 +548,7 @@ function renderToday(date){
       <div style="padding:12px 16px;border-bottom:1px solid var(--bdr)">
         <div style="background:var(--surf2);border-radius:9px;padding:11px 13px">
           <div style="font-size:11px;font-weight:500;color:#f0a030;letter-spacing:1px;margin-bottom:5px">INTERVAL PROTOCOL</div>
-          <div style="font-size:12px;color:var(--mut);line-height:1.6">Bike sprints or treadmill · 30s MAX / 90s recovery<br>8-10 rounds · Total 20-25 min · No lifting today<br><span style="color:#f0c060">One HIIT session/week max at your calorie level.</span></div>
+          <div style="font-size:12px;color:var(--mut);line-height:1.6">Bike sprints or treadmill · 30s MAX / 90s recovery<br>8-10 rounds · Total 20-25 min · No lifting today<br><span style="color:#f0c060">One HIIT session per week max.</span></div>
         </div>
       </div>
       <div class="form-section">
@@ -611,21 +586,20 @@ function renderToday(date){
       const done=sl.done||false;
       rows+=`<tr>
         <td style="color:var(--mut);font-size:12px">${s+1}</td>
-        <td><input class="set-inp" type="number" step="2.5" placeholder="lbs" value="${wVal}" oninput="saveSet('${k}',${i},${s},'weight',this.value,'${safeExName(ex.name)}')"></td>
-        <td><input class="set-inp" type="number" placeholder="${ex.reps}" value="${rVal}" oninput="saveSet('${k}',${i},${s},'reps',this.value,'${safeExName(ex.name)}')"></td>
-        <td><button class="set-done-btn ${done?'logged':''}" onclick="toggleSet('${k}',${i},${s},'${safeExName(ex.name)}')">${done?'Done':'Log'}</button></td>
+        <td><input class="set-inp" type="number" step="2.5" placeholder="lbs" value="${wVal}" oninput="saveSet('${k}',${i},${s},'weight',this.value,'${safeEx(ex.name)}')"></td>
+        <td><input class="set-inp" type="number" placeholder="${ex.reps}" value="${rVal}" oninput="saveSet('${k}',${i},${s},'reps',this.value,'${safeEx(ex.name)}')"></td>
+        <td><button class="set-done-btn ${done?'logged':''}" onclick="toggleSet('${k}',${i},${s},'${safeEx(ex.name)}')">${done?'Done':'Log'}</button></td>
       </tr>`;
     }
     return`<div class="ex-block">
       <div class="ex-head">
         <div style="flex:1">
           <div class="ex-name-txt">${ex.name} <span style="font-size:10px;color:var(--mut);font-weight:400">${ex.muscle}</span></div>
-          <div class="ex-meta-txt">${ex.sets} sets &times; ${ex.reps} &nbsp;·&nbsp; <span style="color:var(--acc)">60 sec rest</span></div>
+          <div class="ex-meta-txt">${ex.sets} sets &times; ${ex.reps}</div>
         </div>
         <div class="ex-check ${allDone?'done':''}">&#10003;</div>
       </div>
       ${ex.note?`<div class="ex-note">${ex.note}</div>`:''}
-      ${ex.alt?`<div class="ex-alt">&#9432; Alt: ${ex.alt}</div>`:''}
       <table class="sets-table" style="padding:3px 8px">
         <thead><tr><th>SET</th><th>WEIGHT</th><th>REPS</th><th></th></tr></thead>
         <tbody>${rows}</tbody>
@@ -633,11 +607,10 @@ function renderToday(date){
     </div>`;
   }).join('');
 
-  // Daily cardio block for lift days
   const cardioBlock=`<div class="cardio-block">
     <div class="cardio-block-hdr">
-      <div><div class="cardio-block-title">Daily Cardio — 3 Miles</div><div class="cardio-block-sub">${LIFT_CARDIO.note}</div></div>
-      ${cardioSv.done?'<span style="color:#4aaa6a;font-size:12px">&#10003; Done</span>':''}
+      <div><div class="cardio-block-title">Daily Cardio — 3 Miles</div><div class="cardio-block-sub">${DAILY_CARDIO_NOTE}</div></div>
+      ${cardioSv.done?'<span style="color:#4aaa6a;font-size:13px">&#10003;</span>':''}
     </div>
     <div class="cardio-block-body">
       <div class="cardio-mini-row">
@@ -646,7 +619,7 @@ function renderToday(date){
         <div class="form-group"><label class="form-label">Incline (%)</label><input class="form-inp" type="number" step="0.5" id="dc_incline" placeholder="10" value="${cardioSv.incline||''}"></div>
       </div>
       <button class="cardio-save-btn" onclick="saveDailyCardio('${k}')">Log Daily Cardio</button>
-      ${cardioSv.done?'<div class="cardio-logged-tag">&#10003; Cardio logged for today</div>':''}
+      ${cardioSv.done?'<div class="cardio-logged-tag">&#10003; Daily cardio logged</div>':''}
     </div>
   </div>`;
 
@@ -738,12 +711,7 @@ function toggleSet(k,ei,si,exName){
 }
 function saveDailyCardio(k){
   if(!logs[k])logs[k]={};
-  logs[k].cardioLog={
-    done:true,
-    distance:document.getElementById('dc_dist')?.value||'',
-    duration:document.getElementById('dc_dur')?.value||'',
-    incline:document.getElementById('dc_incline')?.value||''
-  };
+  logs[k].cardioLog={done:true,distance:document.getElementById('dc_dist')?.value||'',duration:document.getElementById('dc_dur')?.value||'',incline:document.getElementById('dc_incline')?.value||''};
   save();showToast('Daily cardio logged!',true);
   const[y,m,d]=k.split('-').map(Number);renderToday(new Date(y,m-1,d));
 }
@@ -757,7 +725,7 @@ function saveCardio(k,type){
     rounds:document.getElementById('c_rounds')?.value||'',
     notes:document.getElementById('c_notes')?.value||''
   },date:k};
-  save();renderCalendar();showToast(type==='hiit'?'HIIT logged! 🔥':'LISS logged! ✓',true);
+  save();renderCalendar();showToast(type==='hiit'?'HIIT logged!':'LISS logged!',true);
 }
 function calcBF(k){
   const wt=parseFloat(document.getElementById('wi_weight')?.value)||0;
@@ -790,10 +758,8 @@ function saveWeighIn(k){
 }
 function saveLift(k,name){
   const dow=DOW[new Date(...k.split('-').map((v,i)=>i===1?+v-1:+v)).getDay()];
-  const w=WORKOUTS[dow];
-  const notes=document.getElementById('lift_notes')?.value||'';
-  const sd=setData[k]||{};
-  let done=0;
+  const w=WORKOUTS[dow];const notes=document.getElementById('lift_notes')?.value||'';
+  const sd=setData[k]||{};let done=0;
   w.exercises.forEach((ex,i)=>{if(ex.sets>0&&Array.from({length:ex.sets},(_,s)=>sd[`${i}_${s}`]?.done).every(Boolean))done++;});
   const dur=timerState.elapsed+(timerState.running?Date.now()-timerState.start:0);
   if(!logs[k])logs[k]={};
@@ -815,7 +781,7 @@ function renderLog(){
   if(!all.length){document.getElementById('logList').innerHTML='<div class="empty-state">No sessions logged yet.<br>Start today.</div>';return;}
   document.getElementById('logList').innerHTML=all.map(e=>{
     if(e.type==='lift')return`<div class="log-entry"><div class="log-hdr"><span class="log-name">${e.name||'Lift'}</span><span class="log-badge lb-lift">LIFT</span></div><div class="log-date">${e.ds}</div><div class="log-detail">${e.exercisesDone||0}/${e.total||0} exercises${e.duration?` · ${Math.floor(e.duration/60)}m ${e.duration%60}s`:''}${e.notes?` · "${e.notes}"`:''}</div></div>`;
-    if(e.type==='liss'){const c=logs[e.date]?.cardio||{};return`<div class="log-entry"><div class="log-hdr"><span class="log-name">LISS Cardio</span><span class="log-badge lb-liss">LISS</span></div><div class="log-date">${e.ds}</div><div class="log-detail">${c.distance?c.distance+' mi':''}${c.speed?' · '+c.speed+' mph':''}${c.incline?' · '+c.incline+'% incline':''}${c.duration?' · '+c.duration+' min':''}</div></div>`;}
+    if(e.type==='liss'){const c=logs[e.date]?.cardio||{};return`<div class="log-entry"><div class="log-hdr"><span class="log-name">LISS Cardio</span><span class="log-badge lb-liss">LISS</span></div><div class="log-date">${e.ds}</div><div class="log-detail">${c.distance?c.distance+' mi':''}${c.speed?' · '+c.speed+' mph':''}${c.incline?' · '+c.incline+'%':''}${c.duration?' · '+c.duration+' min':''}</div></div>`;}
     if(e.type==='hiit'){const c=logs[e.date]?.cardio||{};return`<div class="log-entry"><div class="log-hdr"><span class="log-name">HIIT</span><span class="log-badge lb-hiit">HIIT</span></div><div class="log-date">${e.ds}</div><div class="log-detail">${c.rounds?c.rounds+' rounds':''}${c.duration?' · '+c.duration+' min':''}${c.hr?' · Peak HR '+c.hr:''}</div></div>`;}
     if(e.type==='dailycardio')return`<div class="log-entry"><div class="log-hdr"><span class="log-name">Daily Cardio</span><span class="log-badge lb-liss">3 MI</span></div><div class="log-date">${e.ds}</div><div class="log-detail">${e.distance?e.distance+' mi':'3 miles'}${e.duration?' · '+e.duration+' min':''}${e.incline?' · '+e.incline+'% incline':''}</div></div>`;
     if(e.type==='weigh')return`<div class="log-entry"><div class="log-hdr"><span class="log-name">Weigh-In</span><span class="log-badge lb-weigh">WEIGH-IN</span></div><div class="log-date">${e.ds}</div><div class="log-detail">${e.weight||'--'} lbs${e.bf?' · '+e.bf.toFixed(1)+'% body fat · '+e.bfCat:''}</div></div>`;
@@ -824,9 +790,9 @@ function renderLog(){
 }
 function renderProgress(){
   const lifts=Object.values(logs).filter(v=>v.lift).length;
-  const lissCount=Object.values(logs).filter(v=>v.type==='liss').length;
-  const hiitCount=Object.values(logs).filter(v=>v.type==='hiit').length;
-  const dailyCardio=Object.values(logs).filter(v=>v.cardioLog?.done).length;
+  const lissC=Object.values(logs).filter(v=>v.type==='liss').length;
+  const hiitC=Object.values(logs).filter(v=>v.type==='hiit').length;
+  const dailyC=Object.values(logs).filter(v=>v.cardioLog?.done).length;
   const weighIns=Object.values(logs).filter(v=>v.weigh).length;
   let streak=0,d=new Date(todayDate());
   while(logs[gk(d)]){streak++;d.setDate(d.getDate()-1);}
@@ -836,10 +802,7 @@ function renderProgress(){
     const wd=new Date(weekStart);wd.setDate(weekStart.getDate()+i);
     const wk=gk(wd);const l=logs[wk];const isT=wk===gk(todayDate());
     let dc='wdot';
-    if(l?.lift)dc+=' done';
-    else if(l?.type==='liss')dc+=' liss-done';
-    else if(l?.type==='hiit')dc+=' hiit-done';
-    else if(isT)dc+=' tday';
+    if(l?.lift)dc+=' done';else if(l?.type==='liss')dc+=' liss-done';else if(l?.type==='hiit')dc+=' hiit-done';else if(isT)dc+=' tday';
     wdHtml+=`<div class="wday"><div class="${dc}">${l?'&#10003;':DOW_SHORT[i].charAt(0)}</div><div class="wday-lbl">${DOW_SHORT[i]}</div></div>`;
   }
   const bfE=Object.entries(logs).filter(([,v])=>v.weigh?.bf).sort((a,b)=>a[0].localeCompare(b[0]));
@@ -857,8 +820,8 @@ function renderProgress(){
     <div style="font-family:var(--fn);font-size:11px;letter-spacing:2px;color:var(--acc);margin-bottom:14px;padding-bottom:6px;border-bottom:1px solid var(--bdr)">CHISEL — FIGHT CLUB PHYSIQUE</div>
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-num">${lifts}</div><div class="stat-lbl">Lift Sessions</div></div>
-      <div class="stat-card"><div class="stat-num" style="color:#4aaa6a">${lissCount+dailyCardio}</div><div class="stat-lbl">Cardio Sessions</div></div>
-      <div class="stat-card"><div class="stat-num" style="color:#f0a030">${hiitCount}</div><div class="stat-lbl">HIIT Sessions</div></div>
+      <div class="stat-card"><div class="stat-num" style="color:#4aaa6a">${lissC+dailyC}</div><div class="stat-lbl">Cardio Sessions</div></div>
+      <div class="stat-card"><div class="stat-num" style="color:#f0a030">${hiitC}</div><div class="stat-lbl">HIIT Sessions</div></div>
     </div>
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-num">${streak}</div><div class="stat-lbl">Day Streak</div></div>
@@ -868,8 +831,8 @@ function renderProgress(){
     <div class="week-prog"><div style="font-size:11px;color:var(--mut);letter-spacing:.8px">THIS WEEK</div><div class="week-days">${wdHtml}</div></div>
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-num" style="color:#4aaa6a">${firstBF&&lastBF?(firstBF-lastBF).toFixed(1)+'%':'--'}</div><div class="stat-lbl">Total BF Lost</div></div>
-      <div class="stat-card"><div class="stat-num">${lifts+lissCount+hiitCount+dailyCardio}</div><div class="stat-lbl">Total Sessions</div></div>
-      <div class="stat-card"><div class="stat-num" style="color:var(--royal2)">${dailyCardio}</div><div class="stat-lbl">Daily Cardios</div></div>
+      <div class="stat-card"><div class="stat-num">${lifts+lissC+hiitC+dailyC}</div><div class="stat-lbl">Total Sessions</div></div>
+      <div class="stat-card"><div class="stat-num" style="color:var(--royal2)">${dailyC}</div><div class="stat-lbl">Daily Cardios</div></div>
     </div>
     ${bfH}`;
 }
